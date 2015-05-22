@@ -302,3 +302,17 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+/*   border class */
+.myborder{
+    border:1px solid #000000;
+
+}
+.tealborder{
+  border: 1px solid;
+  border-color: #2AAE6D;
+  border-top-width: 10px;
+}
+div > b {
+    color:green;
+}
