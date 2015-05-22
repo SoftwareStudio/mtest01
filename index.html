@@ -2,26 +2,35 @@
 <html>
 	<head>
 		<title>Title of the document</title>
-		<link rel="stylesheet" href="css/main.css">
-	  	<script src="js/main.js"></script>
+		 <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="bootstrap/331/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap/331/css/bootstrap-theme.min.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 	</head>
 	<body>
-		<div class="mp" style=" color:black;">
-			<h2>London</h2>
-			<p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-			<p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-		</div>
-		<div class="mp" style=" color:black;">
-			<h2>Paris</h2>
-			<p>Paris is the capital and most populous city of France.</p>
-			<h2>Spectacular Mountains</h2>
-			<img src="pic_mountain.jpg" alt="Mountain View" class="img-circle">
-		</div>
-		<div class="mp blockred">
-			<h2>Tokyo</h2>
-			<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
-			and the most populous metropolitan area in the world.</p>
-		</div>
+		 <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="container">
+			<div class="mp" style=" color:black;">
+				<h2>London</h2>
+				<p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+				<p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+			</div>
+			<div class="mp" style=" color:black;">
+				<h2>Paris</h2>
+				<p>Paris is the capital and most populous city of France.</p>
+				<h2>Spectacular Mountains</h2>
+				<img src="pic_mountain.jpg" alt="Mountain View" class="img-circle">
+			</div>
+			<div class="mp blockred">
+				<h2>Tokyo</h2>
+				<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
+				and the most populous metropolitan area in the world.</p>
+			</div>
 			<h1>My First JavaScript</h1>
 
 			<p>JavaScript can change the content of an HTML element:</p>
@@ -29,28 +38,46 @@
 			<button type="button" onclick="maryam()">Click</button>
 
 			<p id="demo">This is a demonstration.</p>
-<form>
-  <div class="form-group">
-   	    <label for="exampleInputEmail1">Email address</label>
-    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-  </div>
-  <div class="form-group">
-    	<label for="exampleInputPassword1">Password</label>
-    	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group">
-    	<label for="exampleInputFile">File input</label>
-    	<input type="file" id="exampleInputFile">
-    	<p class="help-block">Example block-level help text here.</p>
-  </div>
-  <div class="checkbox">
-	<label>
-        <input type="checkbox"> Check me out
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
-
+			<form>
+			  <div class="form-group">
+			   	    <label for="exampleInputEmail1">Email address</label>
+			    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+			  </div>
+			  <div class="form-group">
+			    	<label for="exampleInputPassword1">Password</label>
+			    	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			  </div>
+			  <div class="form-group">
+			    	<label for="exampleInputFile">File input</label>
+			    	<input type="file" id="exampleInputFile">
+			    	<p class="help-block">Example block-level help text here.</p>
+			  </div>
+			  <div class="checkbox">
+				<label>
+			        <input type="checkbox"> Check me out
+			    </label>
+			  </div>
+			  <button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</div>
+	<div class="row">
+  		<div class="col-xs-6 col-md-4">books</div>
+  		<div class="col-xs-6 col-md-4">Sports</div>
+  		<div class="col-xs-6 col-md-4">Cooking</div>
+  		 <div class="row">
+      <div class="col-xs-8 col-sm-6">
+        Level 2: .col-xs-8 .col-sm-6
+      </div>
+      <div class="col-xs-4 col-sm-6">
+        Level 2: .col-xs-4 .col-sm-6
+      </div>
+    </div>
+	</div>
+  		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="bootstrap/331/js/bootstrap.min.js"></script>
 
 	</body>
 </html>
